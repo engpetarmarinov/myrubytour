@@ -41,3 +41,11 @@ sadsad
 sadsad".each_line do |line|
   puts "Line: #{line}"
 end
+
+threads = 10.times.map do |i|
+  Thread.new do
+    100.times do
+      counter.increment
+    end
+  end
+end
