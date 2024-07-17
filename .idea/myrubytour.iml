@@ -11,5 +11,7 @@
     </content>
     <orderEntry type="jdk" jdkName="asdf: 3.3.3" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v2.7.2, asdf: 3.3.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="webrick (v1.8.1, asdf: 3.3.3) [gem]" level="application" />
   </component>
 </module>
