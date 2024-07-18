@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:14-alpine
+    ports:
+      - 5432:5432
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=test
+      - POSTGRES_USER=rails_user
+      - POSTGRES_DB=rails_dbA
+
+volumes:
+  pg_data:
