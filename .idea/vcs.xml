@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/rails/blog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rails/rails_react_recipe" vcs="Git" />
   </component>
 </project>
